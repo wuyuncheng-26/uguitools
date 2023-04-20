@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "uguitools"
+version = "1.0.0"
+authors = [
+    { name="wuyuncheng-26", email="wujihuang7@hotmail.com" },
+]
+description = "some useful GUI tools"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/wuyuncheng-26/uguitools"
+"Bug Tracker" = "https://github.com/wuyuncheng-26/uguitools/issues"
